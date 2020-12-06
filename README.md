@@ -38,9 +38,9 @@ Once you have the database in place, you can deploy CustomDIFF to start visualiz
 https://github.com/letimome/CustomDiff
 
 
-#Acknowledgements
+# Acknowledgements
 The parsing Git2SPLdb 3rd party tools that SPLCustoms utilizes
 RepoDriller, a framework to mine Git repos: see at https://github.com/mauricioaniche/repodriller 
 
-#Copyright
+# Copyright
 Copyright (c) 2018 University of the Basque Country Spain (UPV/EHU)

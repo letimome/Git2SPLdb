@@ -1,10 +1,10 @@
-#Git2SPLdb
+# Git2SPLdb
 
 Git2SPLdb is part of the CustomDIFF tool. Check a video about it: https://www.youtube.com/watch?v=HF7ZdebMAIo
 
 Git2SPLdb mines a Git repository, where an SPL is  being developed. It traverses all the branches where products have customized/changes feature implementations, and computes the customizations effort those products (i.e. what featuares have been customized and how much). Finally, it outputs  a set of mysql-based scripts - that constain the information about product customizations.
 
-#Git2SPLdb works for:
+# Git2SPLdb works for:
 1.- Annotated based SPLs. So far it works for pure::variants framework. This means that code is annotated with preprocessor directives with the pattern PV:IFCOND(hasFeature(....))
 2.- For git repositories that have:
   2.1. A (master) branch where the core-assets are developed. At least one commit needs to be taged (e.g. Baseline-v1)
@@ -12,7 +12,7 @@ Git2SPLdb mines a Git repository, where an SPL is  being developed. It traverses
   2.3. Product branches account with several commits. And at least there is one taged commit in product branches (e.g. productA-v1)
 To see how a git repository for developing SPLs should look like, go to: https://github.com/letimome/WeatherStationSPL-JSS
 
-#Get Git2SPLdb & run it
+# Get Git2SPLdb & run it
 
 Git2SPLdb contains the entire Eclipse project. So just clone it to your local computer & import it in Eclipse.
 
@@ -33,7 +33,7 @@ After running it you would need to create a mysql database, with the two scripts
 *olapCustoms.sql --> this is the database squema
 *olap-inserts.sql --> these are the data inserts to populate the database
 
-#What to do next?
+# What to do next?
 Once you have the database in place, you can deploy CustomDIFF to start visualizing the data stored in you db. Go to:
 https://github.com/letimome/CustomDiff
 
